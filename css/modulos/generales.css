@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Zilla Slab", "Arvo";
+  }
+  body{
+    background-color: var(--beige);
+  }
+  h1{
+    font: var(--h1);
+    padding: var(--tamano-4);
+  }
+  h2{
+    font: var(--h2);
+  }
+  h3{
+    font: var(--h3);
+  }
+  h4{
+    font: var(--h4);
+  }
+  h5{
+    font: var(--h5);
+  }
+  h6{
+    font: var(--h6);
+  }
+  p{
+    font: var(--p);
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--tamano-1);
+  }
+  .bolita{
+    width: var(--tamano-1);
+    height: var(--tamano-1);
+    background-color: var(--azul-oscuro);
+    border-radius: var(--borde-circulo);
+    margin: var(--tamano-3);
+  }
+  .cuadrito{
+    width: var(--tamano-1);
+    height: var(--tamano-1);
+    background-color: var(--verde);
+    border-radius: var(--borde-todos);
+    margin: var(--tamano-3);
+  }
