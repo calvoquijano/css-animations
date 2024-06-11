@@ -20,12 +20,13 @@
 /*Animación Objetos*/
 /*Rebotes*/
 .rebote{
-  animation: rebote 1s infinite;
+  animation: rebote 2s infinite;
 }
 @keyframes rebote {
-  0%{ transform: translateY(0%);}
-  5%{ transform: translateY(-5%);}
-  30%{ transform: translateY(15%);}
-  35%{ transform: translateY(0%);}
-  100%{ transform: translateY(0%);}
+  0%{ transform:  translateY(35%) scale(1, 1);}
+  5%{ transform: translateY(0%) scale(0.9, 1.1);}
+  10%{ transform: translateY(5%) scale(1, 1);}
+  15%{ transform: translateY(0%) scale(0.95, 1.05);}
+  20%{ transform: translateY(4%) scale(1, 1);}
+  100%{ transform: translateY(0%) scale(0.95, 1.05);}
 }
